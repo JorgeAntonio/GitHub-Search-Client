@@ -65,8 +65,6 @@ class UI {
                 <div class="row">
                     <div class="col-md-6">
                         <a href="${repo.html_url}" target="_blank">${repo.name}</a>
-                        </br>
-                        <a "${repo.html_url}">${repo.description}</a>
                     </div>
                     <div class="col-md-6">
                         <span class="badge badge-primary"> Lenguage: ${repo.language} </span>
